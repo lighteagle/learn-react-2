@@ -18,7 +18,7 @@ class StateClass extends Component {
         "Taufiq",
         "Bagus",
         "Baim",
-        "Iwan",
+        "Iman",
         "Iqbal"
       ],
 
@@ -78,6 +78,8 @@ class StateClass extends Component {
           </button>
           <div id="class-komodo">
             <div className="class-list">
+              <h3>Click Name to show </h3>
+              <h3>Github Photo Profile</h3>
               <ul>
                 {this.state.classKomodo &&
                   this.state.classKomodo.map((data, index) => {

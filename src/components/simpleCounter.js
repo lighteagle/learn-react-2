@@ -20,10 +20,16 @@ class SimpleCounter extends Component {
   render() {
     return (
       <div>
-        <h1>Simple Counter</h1>
-        <button onClick={this.substract}> -1 </button>
-        <h1>{this.state.counter}</h1>
+        <h3>=========================================================</h3>
+        <br />
+        <h1 className="counter">Simple Counter</h1>
         <button onClick={this.add}> +1 </button>
+        <h1 className="counter">
+          {this.state.counter.toString().padStart(4, "0")}
+        </h1>
+        <button onClick={this.substract}> -1 </button>
+
+        <h3>=========================================================</h3>
       </div>
     );
   }
