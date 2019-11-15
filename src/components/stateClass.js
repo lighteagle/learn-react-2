@@ -5,7 +5,7 @@ class StateClass extends Component {
     super(props);
     this.state = {
       title: "Simple Counter",
-      isLoading: true,
+      isLoading: false,
       classKomodo: [
         "Dani",
         "Ega",
